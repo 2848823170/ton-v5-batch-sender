@@ -1,0 +1,40 @@
+{
+  "name": "ton-v5-batch-sender",
+  "version": "1.0.0",
+  "description": "Non-custodial TON Wallet V5R1 (up to 255 transfers/tx) CSV batch sender with address bounce safety, fee simulation, seqno confirmation polling, and JSONL checkpoint resume.",
+  "type": "module",
+  "bin": {
+    "ton-v5-batch": "./dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "dry-run:sample": "npm run build && node dist/src/cli.js --csv examples/recipients.sample.csv --dry-run --network testnet"
+  },
+  "keywords": [
+    "ton",
+    "toncoin",
+    "wallet-v5",
+    "v5r1",
+    "batch-transfer",
+    "multisend",
+    "airdrop",
+    "usdt",
+    "highload-v3",
+    "typescript"
+  ],
+  "author": "2848823170",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@ton/core": "^0.62.0",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}

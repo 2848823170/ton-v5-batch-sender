@@ -1,0 +1,7 @@
+# Sample TON batch payouts (non-bounceable UQ... user wallets + bounceable EQ... contract)
+address,amount_ton,comment,bounce
+UQDnKS0_5OAKbrDOyr8NuePEuA4FiLmnkYlI5t7dzBkhemIn,0.25,Payout #101 - Partner share,
+UQBoqsPeK5lgLAM8cEDOOM0MStfKu3UWWMWFdhKlRFLxstNU,0.50,"Payout #102, bonus tier",
+UQApknIF6pC3WUjE5hTcCWH3DAOb_-IIz4pMxqdubayWYLZY,0.75,Payout #103 - Referral reward,
+UQAcfT90zCOckiS-ZEyggu4xdyav-dzzyxr9JaKn5xdhbn-Z,0.375,Payout #104 - Node rebate,
+EQDL-d1J8PRbFEmy3abuPLoNcrsLjahxja3h5ALQjm_06RN8,1.125,Vault settlement,true
